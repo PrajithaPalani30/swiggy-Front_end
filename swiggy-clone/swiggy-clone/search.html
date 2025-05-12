@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search - Swiggy Clone</title>
+  <link rel="stylesheet" href="search.css">
+</head>
+<body>
+  <div class="search-container">
+    <header class="navbar">
+      <div class="logo">Swiggy</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="search-section">
+      <h2>Search for Restaurants or Dishes</h2>
+      <input type="text" id="search-input" placeholder="Enter restaurant or dish name..." onkeyup="searchRestaurants()">
+      <div id="search-results" class="search-results"></div>
+    </section>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>

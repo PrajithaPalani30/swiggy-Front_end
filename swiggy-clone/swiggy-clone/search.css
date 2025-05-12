@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #ff6f00;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li {
+    cursor: pointer;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    padding: 20px;
+  }
+  
+  .search-section h2 {
+    color: #ff6f00;
+    text-align: center;
+  }
+  
+  #search-input {
+    width: 80%;
+    padding: 12px;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .search-results {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .result-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .result-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .result-card h3 {
+    margin: 10px 0;
+    color: #ff6f00;
+  }
+  
+  .result-card p {
+    color: #444;
+  }
+  
